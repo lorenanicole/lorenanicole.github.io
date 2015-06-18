@@ -16,10 +16,7 @@
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.6.2/css/reveal.css">
-<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.6.2/css/theme/simple.css" id="theme">
-
-<!-- For syntax highlighting -->
-<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.6.2/lib/css/zenburn.css">
+-<link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">		+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.6.2/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -261,18 +258,80 @@ div.output_prompt {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Python">Python<a class="anchor-link" href="#Python">&#182;</a></h3><p>Python is a general-purpose, high-level programming language.</p>
 <p>Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in other languages.</p>
+
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Install-Python-3-(Mac-OS-X)">Install Python 3 (Mac OS X)<a class="anchor-link" href="#Install-Python-3-(Mac-OS-X)">&#182;</a></h3><ol>
+<li>Get Python 3 from <a href="https://www.python.org/downloads/mac-osx/">https://www.python.org/downloads/mac-osx/</a></li>
+<li>Double click on the installer and follow the instructions for installing Python 3.4.3 on your Mac.</li>
+<li>Typing python3 in your terminal will open your Python 3 interpreter.</li>
+</ol>
+<p>Note: Mac OS X comes with Python 2.7 preinstalled. We will be using Python 3 though.</p>
+<p>More information on how to use Python 3 in Mac OS X can be found in <a href="https://docs.python">https://docs.python</a>.
+org/3/using/mac.html</p>
+
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Install-Python-3-(Windows-8)">Install Python 3 (Windows 8)<a class="anchor-link" href="#Install-Python-3-(Windows-8)">&#182;</a></h3><ol>
+<li>Get Python 3 from <a href="https://www.python.org/downloads/windows/">https://www.python.org/downloads/windows/</a></li>
+<li><p>Double click on the installer and follow the instructions for installing Python 3.4.3 on your Windows.</p>
+<p>Note: You'll want to install for all users and you'll want to select the appropriate installer (32 or 64 bit) based on the type of system you have. You can find this information in Control Panel --&gt; System and Security --&gt; System. Reference <a href="http://pcsupport.about.com/od/windows-8/a/windows-8-64-bit-32-bit.htm">here</a> for more info.</p>
+</li>
+<li><p>On the second screen of the installer, titled "Customize" make sure to scroll down and select "add python.exe to the path"</p>
+</li>
+<li>Typing python3 in your shell will open your Python 3 interpreter.</li>
+</ol>
+<p>More information on how to use Python 3 in Windows can be found in <a href="https://docs.python.org/3/using/windows.html">https://docs.python.org/3/using/windows.html</a></p>
+
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="What-is-the-&quot;shell&quot;?">What is the "shell"?<a class="anchor-link" href="#What-is-the-&quot;shell&quot;?">&#182;</a></h4><h5 id="Windows-users:">Windows users:<a class="anchor-link" href="#Windows-users:">&#182;</a></h5><p>Go to Start menu → All Programs → Accessories → Command Prompt.</p>
+<h5 id="Mac-OS-X-users:">Mac OS X users:<a class="anchor-link" href="#Mac-OS-X-users:">&#182;</a></h5><p>Applications → Utilities → Terminal</p>
+<p>This is what we call the "command line", whenever you see a code snippet you can try it out in the terminal. As mentioned on the last slides, to enter a "Python shell" you'll need to type python3 in the command line.</p>
 <p>Let's try it out:</p>
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="3">
+</div><div class="fragment" data-fragment-index="6">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="nb">print</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="err">$</span> <span class="n">python3</span>
+<span class="n">Python</span> <span class="mf">3.4</span><span class="o">.</span><span class="mi">3</span> <span class="p">(</span><span class="n">v3</span><span class="o">.</span><span class="mf">4.3</span><span class="p">:</span><span class="mi">9</span><span class="n">b73f1c3e601</span><span class="p">,</span> <span class="n">Feb</span> <span class="mi">23</span> <span class="mi">2015</span><span class="p">,</span> <span class="mi">02</span><span class="p">:</span><span class="mi">52</span><span class="p">:</span><span class="mi">03</span><span class="p">)</span>
+<span class="p">[</span><span class="n">GCC</span> <span class="mf">4.2</span><span class="o">.</span><span class="mi">1</span> <span class="p">(</span><span class="n">Apple</span> <span class="n">Inc</span><span class="o">.</span> <span class="n">build</span> <span class="mi">5666</span><span class="p">)</span> <span class="p">(</span><span class="n">dot</span> <span class="mi">3</span><span class="p">)]</span> <span class="n">on</span> <span class="n">darwin</span>
+<span class="n">Type</span> <span class="s">&quot;help&quot;</span><span class="p">,</span> <span class="s">&quot;copyright&quot;</span><span class="p">,</span> <span class="s">&quot;credits&quot;</span> <span class="ow">or</span> <span class="s">&quot;license&quot;</span> <span class="k">for</span> <span class="n">more</span> <span class="n">information</span><span class="o">.</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -294,15 +353,393 @@ div.output_prompt {
 </div>
 
 </div>
+    </div><div class="fragment" data-fragment-index="7">
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">exit</span><span class="p">()</span>  <span class="c"># Will bring you back to the command line</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
     </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Basic-Command-Line-Commands">Basic Command Line Commands<a class="anchor-link" href="#Basic-Command-Line-Commands">&#182;</a></h4><p>We'll review these more in-depth in tomorrow's tutorial. However we shall start you with three commands:</p>
+<p>Where am I?</p>
+
+</div>
+</div>
+</div><div class="fragment" data-fragment-index="9">
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">pwd</span>  <span class="c"># print working directory (Mac OS X)</span>
+<span class="n">cd</span>  <span class="c"># current directory (Windows)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div><div class="fragment" data-fragment-index="10">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>What is in this directory?</p>
+
+</div>
+</div>
+</div>
+    </div><div class="fragment" data-fragment-index="11">
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">ls</span>  <span class="c"># (Mac OS X)</span>
+<span class="nb">dir</span>  <span class="c"># (Windows)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div><div class="fragment" data-fragment-index="12">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>How can I move to a new directory?</p>
+
+</div>
+</div>
+</div>
+    </div><div class="fragment" data-fragment-index="13">
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">cd</span> <span class="n">directory_name</span> <span class="c"># Both!</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Python-PIP">Python PIP<a class="anchor-link" href="#Python-PIP">&#182;</a></h3><p><em>PIP</em> is a package management system used to install and manage software packages written in Python. Many packages can be found in the Python Package Index (PyPI).</p>
+<p>PIP is a recursive acronym that can stand for either "Pip Installs
+Packages" or "Pip Installs Python".</p>
+
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="err">$</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">some</span><span class="o">-</span><span class="n">package</span><span class="o">-</span><span class="n">name</span>
+<span class="err">$</span> <span class="n">pip</span> <span class="n">uninstall</span> <span class="n">some</span><span class="o">-</span><span class="n">package</span><span class="o">-</span><span class="n">name</span>
+<span class="err">$</span> <span class="n">pip</span> <span class="n">show</span> <span class="n">some</span><span class="o">-</span><span class="n">package</span><span class="o">-</span><span class="n">name</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Install-PIP">Install PIP<a class="anchor-link" href="#Install-PIP">&#182;</a></h3><h4 id="Mac-OS-X">Mac OS X<a class="anchor-link" href="#Mac-OS-X">&#182;</a></h4><ol>
+<li>Open the terminal</li>
+<li>Run <code>sudo easy_install pip</code></li>
+</ol>
+<h4 id="Windows">Windows<a class="anchor-link" href="#Windows">&#182;</a></h4><ol>
+<li>Get PIP from <a href="https://pip.pypa.io/en/latest/installing.html">https://pip.pypa.io/en/latest/installing.html</a></li>
+<li>Run <code>python get-pip.py</code> in the powershell</li>
+</ol>
+<p>Note: Starting from Python versions 2.7.9 and 3.4.0, pip is already included in the regular install</p>
+
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Virtualenv">Virtualenv<a class="anchor-link" href="#Virtualenv">&#182;</a></h4><p>A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. Keeps your global sitepackages directory clean and manageable.</p>
+<p>For example, you can work on a project which requires Django 1.3 while also maintaining a project which requires Django 1.0. We can do this by having separate virtual environments for each project.</p>
+
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Install-virtualenv">Install virtualenv<a class="anchor-link" href="#Install-virtualenv">&#182;</a></h4><p>Now that we have PIP, its enough to run:</p>
+
+</div>
+</div>
+</div><div class="fragment" data-fragment-index="19">
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="err">$</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">virtualenv</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Start-a-new-virtualenv">Start a new virtualenv<a class="anchor-link" href="#Start-a-new-virtualenv">&#182;</a></h4><ul>
+<li>Create and open a new directory</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment" data-fragment-index="21">
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="err">$</span> <span class="n">mkdir</span> <span class="n">djangogirls</span>  <span class="c"># make a folder (directory) titled djangogirls</span>
+<span class="err">$</span> <span class="n">cd</span> <span class="n">djangogirls</span>  <span class="c"># change into the directory djangogirls</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div><div class="fragment" data-fragment-index="22">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Create the virtualenv</li>
+</ul>
+
+</div>
+</div>
+</div>
+    </div><div class="fragment" data-fragment-index="23">
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="err">$</span> <span class="n">python3</span> <span class="o">-</span><span class="n">m</span> <span class="n">venv</span> <span class="n">myvenv</span>  <span class="c"># Mac OS X</span>
+<span class="err">$</span> <span class="n">C</span><span class="p">:</span>\<span class="n">Python34</span>\<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">venv</span> <span class="n">myvenv</span>  <span class="c"># Windows</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div><div class="fragment" data-fragment-index="24">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Start your virtualenv</li>
+</ul>
+
+</div>
+</div>
+</div>
+    </div><div class="fragment" data-fragment-index="25">
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="err">$</span> <span class="n">source</span> <span class="n">myvenv</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">activate</span>  <span class="c"># Mac OS X</span>
+<span class="err">$</span> <span class="n">myvenv</span>\<span class="n">Scripts</span>\<span class="n">activate</span>  <span class="c"># Windows</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Django">Django<a class="anchor-link" href="#Django">&#182;</a></h4><p>Django is a free and open source web application framework, written in Python. A framework is a set of components that helps you to develop websites faster and easier. Frameworks exist to save you from having to reinvent the wheel and help alleviate some of the overhead when you’re building a new site.</p>
+<p>Fun fact - Django was started in fall of 2003 and one of the co-creators, Adrian Holovaty, lives here in the Chicagoland area!</p>
+<p>-&gt;<img src="sad_panda.png" alt="::sad_panda::">&lt;-
+(Sadly he is out out town this weekend ::sad_panda::)</p>
+
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Install-Django">Install Django<a class="anchor-link" href="#Install-Django">&#182;</a></h4><p>Now that we have PIP and our virtualenv activated, installing Django can be done with:</p>
+
+</div>
+</div>
+</div><div class="fragment" data-fragment-index="28">
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="err">$</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">django</span><span class="o">==</span><span class="mf">1.8</span><span class="o">.</span><span class="mi">1</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Resources">Resources<a class="anchor-link" href="#Resources">&#182;</a></h4><p>There is additional setup documentation in the DjangoGirls tutorial, listed below, however this is the basics for what we will need for tomorrow's workshop.</p>
+<h5 id="DjangoGirls-Tutorial:-http://tutorial.djangogirls.org/en/index.html">DjangoGirls Tutorial: <a href="http://tutorial.djangogirls.org/en/index.html">http://tutorial.djangogirls.org/en/index.html</a><a class="anchor-link" href="#DjangoGirls-Tutorial:-http://tutorial.djangogirls.org/en/index.html">&#182;</a></h5><h5 id="Django-Developers-Documentation:-https://docs.djangoproject.com/en/1.8/">Django Developers Documentation: <a href="https://docs.djangoproject.com/en/1.8/">https://docs.djangoproject.com/en/1.8/</a><a class="anchor-link" href="#Django-Developers-Documentation:-https://docs.djangoproject.com/en/1.8/">&#182;</a></h5><h5 id="Python-Developers-Documentation:-https://www.python.org/doc/">Python Developers Documentation: <a href="https://www.python.org/doc/">https://www.python.org/doc/</a><a class="anchor-link" href="#Python-Developers-Documentation:-https://www.python.org/doc/">&#182;</a></h5>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Before-You-Leave-...">Before You Leave ...<a class="anchor-link" href="#Before-You-Leave-...">&#182;</a></h4><p>Please find a mentor and show them that you have -</p>
+<ul>
+<li>Python 3.4 installed</li>
+<li>Django 1.8 installed</li>
+<li>Virtualenv installed</li>
+</ul>
+<p>You will also need to sign up for free accounts on (we will use these in the tutorial tomorrow) -</p>
+<ul>
+<li>github.com </li>
+<li>pythonanywhere.com</li>
+</ul>
+
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="See-You-All-Tomorrow!!!">See You All Tomorrow!!!<a class="anchor-link" href="#See-You-All-Tomorrow!!!">&#182;</a></h3><p><img src="fat-maru.jpg" alt="Maru Sleeping">
+Thanks!! Now go home and get a good night rest!!</p>
+
+</div>
+</div>
+</div></section>
     </section>
 </div>
 </div>
 
 <script src="http://cdn.jsdelivr.net/reveal.js/2.6.2/lib/js/head.min.js"></script>
-
+ 		 
 <script src="http://cdn.jsdelivr.net/reveal.js/2.6.2/js/reveal.js"></script>
-
 <script>
 
 // Full list of configuration options available here: https://github.com/hakimel/reveal.js#configuration
