@@ -293,7 +293,7 @@ org/3/using/mac.html</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Install-Python-3-(Windows-8)">Install Python 3 (Windows 8)<a class="anchor-link" href="#Install-Python-3-(Windows-8)">&#182;</a></h3><ol>
 <li>Get Python 3 from <a href="https://www.python.org/downloads/windows/">https://www.python.org/downloads/windows/</a></li>
-<li><p>Double click on the installer and follow the instructions for installing Python 3.4.3 on your Windows.</p>
+<li><p>Double click on the installer and follow the instructions for installing Python 3.4.3 on Windows.</p>
 <p>Note: You'll want to install for all users and you'll want to select the appropriate installer (32 or 64 bit) based on the type of system you have. You can find this information in Control Panel --&gt; System and Security --&gt; System. Reference <a href="http://pcsupport.about.com/od/windows-8/a/windows-8-64-bit-32-bit.htm">here</a> for more info.</p>
 </li>
 <li><p>On the second screen of the installer, titled "Customize" make sure to scroll down and select "add python.exe to the path"</p>
@@ -313,7 +313,7 @@ org/3/using/mac.html</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="What-is-the-&quot;shell&quot;?">What is the "shell"?<a class="anchor-link" href="#What-is-the-&quot;shell&quot;?">&#182;</a></h4><h5 id="Windows-users:">Windows users:<a class="anchor-link" href="#Windows-users:">&#182;</a></h5><p>Go to Start menu → All Programs → Accessories → Command Prompt.</p>
+<h4 id="What-is-the-&quot;shell&quot;?">What is the "shell"?<a class="anchor-link" href="#What-is-the-&quot;shell&quot;?">&#182;</a></h4><h5 id="Windows-users:">Windows users:<a class="anchor-link" href="#Windows-users:">&#182;</a></h5><p>Press the Windows key → Type "Powershell" → Press enter</p>
 <h5 id="Mac-OS-X-users:">Mac OS X users:<a class="anchor-link" href="#Mac-OS-X-users:">&#182;</a></h5><p>Applications → Utilities → Terminal</p>
 <p>This is what we call the "command line", whenever you see a code snippet you can try it out in the terminal. As mentioned on the last slides, to enter a "Python shell" you'll need to type python3 in the command line.</p>
 <p>Let's try it out:</p>
@@ -390,8 +390,7 @@ org/3/using/mac.html</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">pwd</span>  <span class="c"># print working directory (Mac OS X)</span>
-<span class="n">cd</span>  <span class="c"># current directory (Windows)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">pwd</span>  <span class="c"># print working directory </span>
 </pre></div>
 
 </div>
@@ -418,8 +417,7 @@ org/3/using/mac.html</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">ls</span>  <span class="c"># (Mac OS X)</span>
-<span class="nb">dir</span>  <span class="c"># (Windows)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">ls</span>  <span class="c"># list directory contents </span>
 </pre></div>
 
 </div>
@@ -446,7 +444,7 @@ org/3/using/mac.html</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">cd</span> <span class="n">directory_name</span> <span class="c"># Both!</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">cd</span> <span class="n">directory_name</span>
 </pre></div>
 
 </div>
@@ -500,7 +498,8 @@ Packages" or "Pip Installs Python".</p>
 </ol>
 <h4 id="Windows">Windows<a class="anchor-link" href="#Windows">&#182;</a></h4><ol>
 <li>Get PIP from <a href="https://pip.pypa.io/en/latest/installing.html">https://pip.pypa.io/en/latest/installing.html</a></li>
-<li>Run <code>python get-pip.py</code> in the powershell</li>
+<li><code>cd</code> to the where you downloaded get-pip.py</li>
+<li>Run <code>python get-pip.py</code> in Powershell</li>
 </ol>
 <p>Note: Starting from Python versions 2.7.9 and 3.4.0, pip is already included in the regular install</p>
 
