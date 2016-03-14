@@ -69,7 +69,7 @@
     <p>Some of my work mates suggested we have a learning club to pursue etc interests, a space for cross pollination of knowledge. First up for the learning club we’re trying our hand at <a href="https://pragprog.com/book/btlang/seven-languages-in-seven-weeks">Bruce Tate’s Seven Languages in Seven Weeks</a> (or 7L7W for short).</p>
 <p>The first language in 7L7W is Ruby. </p>
 <p>Tate compares Ruby to Mary Poppins because like “Mary Poppins [who] made the household more efficient by making it fun ... Ruby does the same ... with more syntactic sugar than a spoonful”.</p>
-<p>There are many ways to do one thing in Ruby</p>
+<p><em>There are many ways to do one thing in Ruby</em></p>
 <p>A few years ago when I first learned Ruby I stumbled on a great blog post comparing and contrasting the enumerable methods <a href="http://matthewcarriere.com/2008/06/23/using-select-reject-collect-inject-and-detect/">select, reject, collect, inject, and detect</a>. Coming from R and Python I felt a bit overwhelmed by all the options for what seemed to be fairly comparable behaviors. According to Tate -- that’s the point; in Ruby there are many ways to do one thing.</p>
 <p>One thing Tate emphasizes is the love that <a href="https://en.wikipedia.org/wiki/Yukihiro_Matsumoto">Matz</a>, the creator of Ruby, has for languages like Perl and Lisp. Like Perl’s <a href="https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it">TMTOWTDI</a> Ruby channels this idea with it’s syntactic sugar. </p>
 <p>Let’s consider an example from 7L7W, the way you can define instance variables within a class. </p>
@@ -112,7 +112,7 @@
 
 
 <p>Notice that there isn’t a mandated singular way of how to create the getter and setter methods nor is the naming of those methods.</p>
-<p>DSLs and Metaprogramming</p>
+<p><em>DSLs and Metaprogramming</em></p>
 <p>Writing code that is easy to read, that’s one of biggest wins with Ruby. You can also use this to allow to build DSLs - domain specific languages - like <a href="http://rake.rubyforge.org/">Rake</a>. One way to <a href="http://archive.oreilly.com/pub/post/the_is_it_a_dsl_or_an_api_ten.html">think of a DSL</a> is that it is a tool that “reads just like English”. Again we come back to the idea that Ruby aims to be human readable. The tradeoff here is while Ruby may not be as performant as a static language, it compensates by allowing a coder write code that is logical for humans to follow. It’s efficiency is its trust in the Ruby coder!</p>
 <p>We can go farther down the path of what domain specific language lets us do by looking at how classes work in Ruby. It is legal in Ruby to open a build in Ruby class and modify or extend its source code. Ruby classes are open! </p>
 <p>How can I see this? Well let’s say I really want each word in my strings to start with a capital letter. I could do this:</p>
@@ -128,7 +128,7 @@
 
 
 <p>Metaprogramming in Ruby allows me to customize Ruby to my particular needs. While this can be dangerous if taken too far and cannot be generalizable for those with other needs (AKA <a href="http://www.justinweiss.com/articles/3-ways-to-monkey-patch-without-making-a-mess/">weird bugs you don’t understand</a>), it goes to show just how much Ruby aims to unleash the creative power of the coder. </p>
-<p>Ruby - a perfect first language to learn?</p>
+<p><em>Ruby - a perfect first language to learn?</em></p>
 <p>Our 7L7W discussion came full circle to how my appreciation for Ruby have grown over time. Two of the learning club participants, myself included, took less traditional paths to make our way into web development. Ruby was a language we learned early on to jump start that path.</p>
 <p>My original understanding of Ruby was so tied into Rails that I didn’t dig into Ruby and how it worked during that time. Not that a beginning coder would (arguably) have success at that. Now as a coder who doesn’t use Ruby except to mentor beginners, I can have come to see how Ruby as a language is like a onion. As you learn you can roll back each layer to learn more and more. It is a language the invites curiosity. You can tinker, compare and contrast implementations, or make your own!</p>
 <p>Other scripting, dynamic languages of course have made learning to code more efficient (if a significant way you measure efficiency is in time). The <a href="https://www.python.org/dev/peps/pep-0020/">Zen of Python</a> after all says “readability counts” and goes so far as to enforce whitespace as a part of its syntax. </p>
