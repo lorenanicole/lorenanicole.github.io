@@ -1,3 +1,3 @@
 # lorenanicole.github.io
 
-This is a fabulous page!
+Pelican generated website for me!
