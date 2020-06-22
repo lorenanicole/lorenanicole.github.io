@@ -136,7 +136,7 @@ soliciting feedback on. &lt;/p&gt;
 &lt;h3&gt;Getting started&lt;/h3&gt;
 &lt;p&gt;You'll likely want to clone a copy &lt;a href="https://github.com/lorenanicole/lorenanicole.github.io-src"&gt;my repo&lt;/a&gt; to follow along with the code snippets in this post. &lt;/p&gt;
 &lt;p&gt;To download the code to your machine:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;git clone --recursive repo-url  &lt;span class="c"&gt;# downloads the submodules&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone --recursive repo-url  &lt;span class="c1"&gt;# downloads the submodules&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -154,13 +154,13 @@ soliciting feedback on. &lt;/p&gt;
 &lt;p&gt;To write an article create a &lt;code&gt;.md&lt;/code&gt; or &lt;code&gt;.rst&lt;/code&gt; file in the &lt;code&gt;/content/articles&lt;/code&gt; directory. You'll need to specify a title at a minimum, other attributes can be found here.&lt;/p&gt;
 &lt;p&gt;To write a page, again create create a &lt;code&gt;.md&lt;/code&gt; or &lt;code&gt;.rst&lt;/code&gt; file, this time in the &lt;code&gt;/content/pages&lt;/code&gt; directory. Again you need to specify minimum metadata.&lt;/p&gt;
 &lt;p&gt;Once your pages (the site navigation sections defined in the menu) or articles (e.g. blog posts) are created you:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;make html &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; make serve  &lt;span class="c"&gt;# Exports static pages/articles to /output and serves locally&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;make html &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; make serve  &lt;span class="c1"&gt;# Exports static pages/articles to /output and serves locally&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;If all looks good you can: &lt;code&gt;make publish&lt;/code&gt; (or &lt;code&gt;make html&lt;/code&gt; but ensure your &lt;code&gt;SITE_URL&lt;/code&gt; is set to not to &lt;code&gt;localhost&lt;/code&gt; in &lt;code&gt;pelicanconf.py&lt;/code&gt;).&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /output
-git remote -v  &lt;span class="c"&gt;# ensure points to the github page repo&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /output
+git remote -v  &lt;span class="c1"&gt;# ensure points to the github page repo&lt;/span&gt;
 git add 
 git commit -m &lt;span class="s1"&gt;&amp;#39;new pages&amp;#39;&lt;/span&gt;
 git push

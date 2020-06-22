@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Lorena Mesa">
-  <meta name="description" content="Building a GitHub page with Pelican, a Python static site generator | If you&#39;ve ever wanted to quickly spin up a personal website but, like me, are ...">
+  <meta name="description" content="Building a GitHub page with Pelican, a Python static site generator | If you&#39;ve ever wanted to quickly spin up a personal website but, like me, are...">
 
   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">  
@@ -101,7 +101,7 @@
      <div class="container">
       <div id="logo">
         <span class="site-name"><a class="navbar-brand" href="http://lorenamesa.com"><img width="310" src="https://www.gravatar.com/avatar/7f279cdd4dcbc3b5b98deed921ba86a2?s=500" class="attachment-full size-full" alt="logo">          </a>
-          <br><i>Part Star Wars Fanatic, but mostly a 🖖 Trekkie 🖖. </i><br>
+          <br><i>My motto? 🖖🏽 Live Long 🖖🏽, 🐍 Python, and prosper. </i><br>
         </span><!-- end of .site-name -->
 
       </div><!-- end of #logo -->
@@ -157,7 +157,7 @@
 <h3>Getting started</h3>
 <p>You'll likely want to clone a copy <a href="https://github.com/lorenanicole/lorenanicole.github.io-src">my repo</a> to follow along with the code snippets in this post. </p>
 <p>To download the code to your machine:</p>
-<div class="highlight"><pre>git clone --recursive repo-url  <span class="c"># downloads the submodules</span>
+<div class="highlight"><pre><span></span>git clone --recursive repo-url  <span class="c1"># downloads the submodules</span>
 </pre></div>
 
 
@@ -175,13 +175,13 @@
 <p>To write an article create a <code>.md</code> or <code>.rst</code> file in the <code>/content/articles</code> directory. You'll need to specify a title at a minimum, other attributes can be found here.</p>
 <p>To write a page, again create create a <code>.md</code> or <code>.rst</code> file, this time in the <code>/content/pages</code> directory. Again you need to specify minimum metadata.</p>
 <p>Once your pages (the site navigation sections defined in the menu) or articles (e.g. blog posts) are created you:</p>
-<div class="highlight"><pre>make html <span class="o">&amp;&amp;</span> make serve  <span class="c"># Exports static pages/articles to /output and serves locally</span>
+<div class="highlight"><pre><span></span>make html <span class="o">&amp;&amp;</span> make serve  <span class="c1"># Exports static pages/articles to /output and serves locally</span>
 </pre></div>
 
 
 <p>If all looks good you can: <code>make publish</code> (or <code>make html</code> but ensure your <code>SITE_URL</code> is set to not to <code>localhost</code> in <code>pelicanconf.py</code>).</p>
-<div class="highlight"><pre><span class="nb">cd</span> /output
-git remote -v  <span class="c"># ensure points to the github page repo</span>
+<div class="highlight"><pre><span></span><span class="nb">cd</span> /output
+git remote -v  <span class="c1"># ensure points to the github page repo</span>
 git add 
 git commit -m <span class="s1">&#39;new pages&#39;</span>
 git push
