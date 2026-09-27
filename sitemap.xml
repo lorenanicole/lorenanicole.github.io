@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://lorenamesa.com/what-is-your-voting-plan.html</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://lorenamesa.com/your-bias-and-equity-in-tech-reading-starter-pack.html</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://lorenamesa.com/donate-to-your-local-community-bond-fund.html</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://lorenamesa.com/akwaaba-a-pan-african-python-conference-and-the-year-of-return.html</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://lorenamesa.com/my-checklist-to-hosting-an-inclusive-event.html</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://lorenamesa.com/building-a-github-page-with-pelican-a-python-static-site-generator.html</loc>
-    <priority>0.8</priority>
-  </url>
-
 
   <url>
     <loc>https://lorenamesa.com/about.html</loc>
@@ -38,22 +8,17 @@
   </url>
 
   <url>
-    <loc>https://lorenamesa.com/ethics-in-tech-talk.html</loc>
+    <loc>https://lorenamesa.com/connect.html</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://lorenamesa.com/speaker-info.html</loc>
+    <loc>https://lorenamesa.com/open-source.html</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://lorenamesa.com/talks.html</loc>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://lorenamesa.com/values.html</loc>
+    <loc>https://lorenamesa.com/speaking.html</loc>
     <priority>1.0</priority>
   </url>
 
