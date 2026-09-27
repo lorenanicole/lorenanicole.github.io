@@ -204,7 +204,27 @@
 <body class="bg-black text-slate-100 antialiased">
   <header class="border-b border-slate-800 py-8 mb-16">
     <div class="max-w-4xl mx-auto px-8">
-      <div class="flex justify-between items-end gap-12">
+      <!-- Mobile/Tablet: Stack vertically -->
+      <div class="block lg:hidden">
+        <div class="flex items-end gap-6 mb-8">
+          <img src="https://www.gravatar.com/avatar/7f279cdd4dcbc3b5b98deed921ba86a2?s=500" alt="Lorena Mesa" class="w-16 h-16 rounded-full border-2 border-slate-700 flex-shrink-0">
+          <div class="pb-1">
+            <h1 class="text-2xl font-bold mb-0.5">
+              <a href="https://lorenamesa.com/" class="text-slate-100 hover:text-accent">Lorena Mesa</a>
+            </h1>
+            <p class="text-xs text-slate-400 leading-tight">Python • AI • Community Leader</p>
+          </div>
+        </div>
+        <nav class="flex gap-4 flex-wrap" aria-label="Main navigation">
+          <a href="/about.html" class="text-xs font-medium text-slate-400 hover:text-accent transition-colors">About</a>
+          <a href="/speaking.html" class="text-xs font-medium text-slate-400 hover:text-accent transition-colors">Speaking</a>
+          <a href="/open-source.html" class="text-xs font-medium text-slate-400 hover:text-accent transition-colors">Open Source</a>
+          <a href="/connect.html" class="text-xs font-medium text-slate-400 hover:text-accent transition-colors">Connect</a>
+        </nav>
+      </div>
+
+      <!-- Desktop: Side-by-side -->
+      <div class="hidden lg:flex justify-between items-end gap-12">
         <!-- Branding -->
         <div class="flex items-end gap-6 flex-1">
           <img src="https://www.gravatar.com/avatar/7f279cdd4dcbc3b5b98deed921ba86a2?s=500" alt="Lorena Mesa" class="w-20 h-20 rounded-full border-2 border-slate-700 flex-shrink-0">
