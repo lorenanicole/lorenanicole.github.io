@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <rect width="1080" height="1080" fill="#0a0a0f"/>
+
+  <!-- LCARS top-left elbow -->
+  <rect x="0" y="0" width="130" height="130" rx="65" fill="#FF9900"/>
+  <rect x="65" y="0" width="65" height="130" fill="#FF9900"/>
+  <rect x="0" y="65" width="130" height="65" fill="#FF9900"/>
+  <rect x="14" y="14" width="108" height="108" rx="52" fill="#0a0a0f"/>
+  <rect x="65" y="14" width="65" height="108" fill="#0a0a0f"/>
+  <rect x="14" y="65" width="108" height="65" fill="#0a0a0f"/>
+
+  <!-- Left spine -->
+  <rect x="0" y="130" width="38" height="700" fill="#FF9900"/>
+  <rect x="0" y="838" width="130" height="36" fill="#9999FF"/>
+  <rect x="0" y="882" width="130" height="26" fill="#CC4444"/>
+  <rect x="0" y="916" width="130" height="164" fill="#FF9900"/>
+
+  <!-- Top-right elbow -->
+  <rect x="950" y="0" width="130" height="50" fill="#FF9900"/>
+  <rect x="1042" y="0" width="38" height="130" fill="#FF9900"/>
+
+  <!-- Right spine -->
+  <rect x="1042" y="130" width="38" height="700" fill="#9999FF"/>
+  <rect x="950" y="838" width="130" height="36" fill="#9999FF"/>
+  <rect x="950" y="882" width="130" height="198" fill="#CC4444"/>
+
+  <!-- Top title bar -->
+  <rect x="148" y="0" width="786" height="38" fill="#FF9900"/>
+  <rect x="148" y="44" width="786" height="16" fill="#9999FF" opacity="0.7"/>
+  <text x="540" y="27" text-anchor="middle" font-family="monospace" font-size="15" font-weight="bold" fill="#0a0a0f" letter-spacing="3">STARFLEET MISSION BRIEF &#x2014; SECTOR CHICAGO-ILL</text>
+
+  <!-- Stardate -->
+  <text x="162" y="84" font-family="monospace" font-size="14" fill="#FF9900" letter-spacing="2">STARDATE 2026.282</text>
+  <text x="928" y="84" text-anchor="end" font-family="monospace" font-size="14" fill="#9999FF" letter-spacing="2">CLASSIFICATION: OPEN SOURCE</text>
+
+  <!-- Main title -->
+  <text x="540" y="210" text-anchor="middle" font-family="monospace" font-size="72" font-weight="bold" fill="#F1F5F9" letter-spacing="1">EventLoop</text>
+  <text x="540" y="268" text-anchor="middle" font-family="monospace" font-size="22" fill="#FF9900" letter-spacing="5">THE REFIT &#x2014; PYTHON 3.15</text>
+
+  <!-- Divider -->
+  <line x1="162" y1="298" x2="928" y2="298" stroke="#475569" stroke-width="1" opacity="0.6"/>
+
+  <!-- PEP pills row -->
+  <rect x="162" y="318" width="168" height="36" rx="6" fill="#1e1e2e"/>
+  <text x="246" y="341" text-anchor="middle" font-family="monospace" font-size="13" fill="#FF9900">PEP 810  lazy from</text>
+
+  <rect x="342" y="318" width="168" height="36" rx="6" fill="#1e1e2e"/>
+  <text x="426" y="341" text-anchor="middle" font-family="monospace" font-size="13" fill="#9999FF">PEP 814  frozendict</text>
+
+  <rect x="522" y="318" width="168" height="36" rx="6" fill="#1e1e2e"/>
+  <text x="606" y="341" text-anchor="middle" font-family="monospace" font-size="13" fill="#CC4444">PEP 661  sentinel</text>
+
+  <rect x="702" y="318" width="200" height="36" rx="6" fill="#1e1e2e"/>
+  <text x="802" y="341" text-anchor="middle" font-family="monospace" font-size="13" fill="#44CC44">PEP 799  Tachyon</text>
+
+  <!-- Divider -->
+  <line x1="162" y1="372" x2="928" y2="372" stroke="#475569" stroke-width="1" opacity="0.4"/>
+
+  <!-- Stats grid left -->
+  <text x="200" y="420" font-family="monospace" font-size="13" fill="#FF9900" letter-spacing="1">PROPULSION</text>
+  <text x="200" y="444" font-family="monospace" font-size="14" fill="#F1F5F9">FastAPI &#xB7; PydanticAI &#xB7; asyncpg</text>
+
+  <text x="200" y="492" font-family="monospace" font-size="13" fill="#FF9900" letter-spacing="1">INTELLIGENCE</text>
+  <text x="200" y="516" font-family="monospace" font-size="14" fill="#F1F5F9">Claude Sonnet 5.5 &#xB7; model2vec</text>
+
+  <text x="200" y="564" font-family="monospace" font-size="13" fill="#FF9900" letter-spacing="1">REGISTRY</text>
+  <text x="200" y="588" font-family="monospace" font-size="14" fill="#F1F5F9">Python 3.15 &#xB7; uv &#xB7; Railway</text>
+
+  <text x="200" y="636" font-family="monospace" font-size="13" fill="#FF9900" letter-spacing="1">DATABASE</text>
+  <text x="200" y="660" font-family="monospace" font-size="14" fill="#F1F5F9">90 neighborhoods &#xB7; PostgreSQL</text>
+
+  <!-- Stats grid right -->
+  <text x="570" y="420" font-family="monospace" font-size="13" fill="#FF9900" letter-spacing="1">MISSION</text>
+  <text x="570" y="444" font-family="monospace" font-size="14" fill="#F1F5F9">Chicago events chatbot</text>
+
+  <text x="570" y="492" font-family="monospace" font-size="13" fill="#FF9900" letter-spacing="1">FALLBACK</text>
+  <text x="570" y="516" font-family="monospace" font-size="14" fill="#F1F5F9">SerpAPI &#xB7; semantic search</text>
+
+  <text x="570" y="564" font-family="monospace" font-size="13" fill="#FF9900" letter-spacing="1">ROUTING</text>
+  <text x="570" y="588" font-family="monospace" font-size="14" fill="#F1F5F9">Regex &#x2192; Haiku &#x2192; Sonnet agent</text>
+
+  <text x="570" y="636" font-family="monospace" font-size="13" fill="#FF9900" letter-spacing="1">STATUS</text>
+  <circle cx="571" cy="655" r="5" fill="#44CC44"/>
+  <text x="584" y="660" font-family="monospace" font-size="14" fill="#44CC44">OPERATIONAL</text>
+
+  <!-- Divider -->
+  <line x1="162" y1="690" x2="928" y2="690" stroke="#475569" stroke-width="1" opacity="0.6"/>
+
+  <!-- War story callout box -->
+  <rect x="162" y="710" width="766" height="120" rx="6" fill="#0f1929" stroke="#FF9900" stroke-width="1"/>
+  <text x="540" y="738" text-anchor="middle" font-family="monospace" font-size="12" fill="#FF9900" letter-spacing="2">INCIDENT LOG</text>
+  <text x="182" y="762" font-family="monospace" font-size="13" fill="#F1F5F9">lazy from surfaced a latent circular import that eager</text>
+  <text x="182" y="784" font-family="monospace" font-size="13" fill="#F1F5F9">imports had been hiding for months. Not a bug in</text>
+  <text x="182" y="806" font-family="monospace" font-size="13" fill="#FF9900">PEP 810 &#x2014; that&#x27;s the feature.</text>
+
+  <!-- Bottom -->
+  <line x1="162" y1="848" x2="928" y2="848" stroke="#475569" stroke-width="1" opacity="0.4"/>
+  <text x="540" y="886" text-anchor="middle" font-family="monospace" font-size="13" fill="#475569">lorenamesa.com &#xB7; link in bio</text>
+</svg>

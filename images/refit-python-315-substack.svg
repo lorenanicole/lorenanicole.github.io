@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1456 816" width="1456" height="816">
+  <!--
+    Substack cover — 1456x816 (Substack's native cover width, ~16:9).
+    Designed to survive email: nothing smaller than 24px, because Substack
+    renders covers at ~600px in most mail clients (a 0.41x scale factor).
+    No U+2192 or U+25CF anywhere — the rasterizer's fallback font covers
+    Latin-1 plus U+2014 and nothing else. Middots and em dashes only.
+  -->
+  <rect width="1456" height="816" fill="#0a0a0f"/>
+
+  <!-- LCARS left elbow -->
+  <rect x="0" y="0" width="170" height="170" rx="85" fill="#FF9900"/>
+  <rect x="85" y="0" width="85" height="170" fill="#FF9900"/>
+  <rect x="0" y="85" width="170" height="85" fill="#FF9900"/>
+  <rect x="19" y="19" width="141" height="141" rx="66" fill="#0a0a0f"/>
+  <rect x="85" y="19" width="75" height="141" fill="#0a0a0f"/>
+  <rect x="19" y="85" width="141" height="75" fill="#0a0a0f"/>
+
+  <!-- Left spine + Chicago flag colour blocks -->
+  <rect x="0" y="170" width="49" height="492" fill="#FF9900"/>
+  <rect x="0" y="686" width="170" height="52" fill="#9999FF"/>
+  <rect x="0" y="749" width="170" height="36" fill="#CC4444"/>
+  <rect x="0" y="795" width="170" height="21" fill="#FF9900"/>
+
+  <!-- Right spine -->
+  <rect x="1407" y="170" width="49" height="492" fill="#9999FF"/>
+  <rect x="1286" y="764" width="170" height="52" fill="#9999FF"/>
+  <rect x="1286" y="0" width="49" height="170" fill="#FF9900"/>
+  <rect x="1286" y="0" width="170" height="49" fill="#FF9900"/>
+
+  <!-- Top title bar -->
+  <rect x="189" y="0" width="1077" height="48" fill="#FF9900"/>
+  <rect x="189" y="58" width="1077" height="24" fill="#9999FF" opacity="0.7"/>
+  <text x="728" y="34" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#0a0a0f" letter-spacing="3">STARFLEET MISSION BRIEF — SECTOR CHICAGO-ILL</text>
+
+  <!-- Kicker line -->
+  <text x="209" y="128" font-family="monospace" font-size="20" fill="#FF9900" letter-spacing="2">STARDATE 2026.282</text>
+  <text x="1247" y="128" text-anchor="end" font-family="monospace" font-size="20" fill="#9999FF" letter-spacing="2">CLASSIFICATION: OPEN SOURCE</text>
+
+  <!-- Headline -->
+  <text x="728" y="300" text-anchor="middle" font-family="monospace" font-size="100" font-weight="bold" fill="#F1F5F9" letter-spacing="4">THE REFIT</text>
+  <text x="728" y="372" text-anchor="middle" font-family="monospace" font-size="38" fill="#FF9900" letter-spacing="8">PYTHON 3.15, SHIPPED</text>
+
+  <line x1="209" y1="420" x2="1247" y2="420" stroke="#475569" stroke-width="1" opacity="0.6"/>
+
+  <!-- The hook -->
+  <text x="728" y="478" text-anchor="middle" font-family="monospace" font-size="32" fill="#F1F5F9">Lazy imports found a circular dependency</text>
+  <text x="728" y="520" text-anchor="middle" font-family="monospace" font-size="32" fill="#F1F5F9">eager imports had hidden for months.</text>
+  <text x="728" y="574" text-anchor="middle" font-family="monospace" font-size="32" fill="#FF9900">That's the feature, not the bug.</text>
+
+  <line x1="209" y1="622" x2="1247" y2="622" stroke="#475569" stroke-width="1" opacity="0.6"/>
+
+  <!-- PEP strip -->
+  <text x="728" y="668" text-anchor="middle" font-family="monospace" font-size="25" fill="#9999FF">PEP 810 lazy from · PEP 814 frozendict · PEP 661 sentinel</text>
+
+  <!-- Footer -->
+  <text x="728" y="722" text-anchor="middle" font-family="monospace" font-size="24" fill="#475569">lorenamesa.com · eventloop.city</text>
+</svg>
