@@ -1,5 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lorena Mesa - Software Engineering</title><link href="https://lorenamesa.com/" rel="alternate"/><link href="http://lorenamesa.com/feeds/software-engineering.atom.xml" rel="self"/><id>https://lorenamesa.com/</id><updated>2026-09-27T00:00:00-05:00</updated><entry><title>Why I'm Blogging Again: Software Engineering in the Age of AI</title><link href="https://lorenamesa.com/why-im-blogging-again.html" rel="alternate"/><published>2026-09-27T00:00:00-05:00</published><updated>2026-09-27T00:00:00-05:00</updated><author><name>Lorena Mesa</name></author><id>tag:lorenamesa.com,2026-09-27:/why-im-blogging-again.html</id><summary type="html">&lt;p&gt;It's been a few years since I actively blogged. Over six years in fact, and in the ever changing world of tech that is a different era entirely. Back then …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It's been a few years since I actively blogged. Over six years in fact, and in the ever changing world of tech that is a different era entirely. Back then, the engineering landscape was relatively stable: you knew your stack, you optimized within known constraints, and you shipped features. The industry moved, but incrementally.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lorena Mesa - Software Engineering</title><link href="https://lorenamesa.com/" rel="alternate"/><link href="http://lorenamesa.com/feeds/software-engineering.atom.xml" rel="self"/><id>https://lorenamesa.com/</id><updated>2026-10-23T09:00:00-05:00</updated><entry><title>Same Résumé, Different Agenda: What AI Negotiation Coaches Assume About You</title><link href="https://lorenamesa.com/same-resume-different-agenda.html" rel="alternate"/><published>2026-10-23T09:00:00-05:00</published><updated>2026-10-23T09:00:00-05:00</updated><author><name>Lorena Mesa</name></author><id>tag:lorenamesa.com,2026-10-23:/same-resume-different-agenda.html</id><summary type="html">&lt;p&gt;A new audit of four leading AI models found they tell otherwise identical women to ask for less money, and for different things: childcare and flexibility instead of equity and advancement. Here's what the study found, why this kind of bias is so hard to see, and what to do about it.&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;"All that you touch, you change. All that you change, changes you. The only lasting truth is change."&lt;/em&gt;
+— &lt;a href="https://en.wikipedia.org/wiki/Octavia_E._Butler"&gt;Octavia Butler&lt;/a&gt;, Parable of the Sower&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The way we negotiate is changing. AI coaching tools are everywhere, and there's barely enough time to learn how to use them — let alone question what assumptions they're making before giving a single word of advice.&lt;/p&gt;
+&lt;p&gt;I've had a conversation like this once with a mentor. She'd lived through many things, such as the collapse of her country — she had to pivot, rethink fundamental truths, and adjust them to a new way that hadn't existed perhaps a year, a month, even a week before.&lt;/p&gt;
+&lt;p&gt;The ground shifts. The question is whether you're adapting on your terms — or just trusting the new system to treat you fairly.&lt;/p&gt;
+&lt;p&gt;It's worth asking.&lt;/p&gt;
+&lt;p&gt;Here's the thing — I've spent a good chunk of my career helping women in tech negotiate, through PyLadies Chicago and one-on-one mentoring. Increasingly, the first coach someone consults before that conversation is a chatbot. New tools are hard to audit. We reach for them because they're fast, available, and confident. We don't always stop to ask what assumptions they're making about us.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/html/2610.14036v1"&gt;&lt;em&gt;AI Advice Reinforces Traditional Gender Roles&lt;/em&gt;&lt;/a&gt; did. A new preprint by Nadja Born, Jared R. Curhan and Hannah Riley Bowles (Harvard Kennedy School and MIT Sloan), it asked an AI coach how to negotiate a job offer, then swapped only the candidate's name from a man's to a woman's. The advice changed. She was told to aim lower. She was also told to aim &lt;em&gt;elsewhere&lt;/em&gt;: childcare, parental leave, flexible hours. He got equity, relocation and raises. Across 86,000 queries to four leading models, every model did this.&lt;/p&gt;
+&lt;h2&gt;What the researchers did&lt;/h2&gt;
+&lt;p&gt;This is an audit study, the same design used for decades to catch hiring discrimination: hold everything constant, flip one variable, compare outcomes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Study 1 (exploratory, 6,000 queries).&lt;/strong&gt; Open-ended prompts modeled on how real mid- and senior-level professionals used an AI negotiation coach. The persona stated their gender outright. Occupation (marketing manager, IT manager, management consultant) and age (35 or 45) varied; qualifications did not.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Study 2 (preregistered, 80,000 queries).&lt;/strong&gt; Gender was signaled only through a first name and pronouns. Four models: GPT-5.4-mini, Claude Sonnet 4.6, Gemini 2.5 Flash and Llama 3.3 70B. Each recommended a target salary and range, then ranked 25 negotiable employment terms by priority.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Human benchmark.&lt;/strong&gt; 500 U.S. adults rated each of those 25 terms on a scale from "breadwinner" to "caregiver."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;This paper is a &lt;a href="https://en.wikipedia.org/wiki/Preprint"&gt;preprint&lt;/a&gt; — shared publicly before formal peer review. The methodology and findings haven't yet been independently verified by other researchers. The results are worth taking seriously; hold them with that caveat in mind.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The study used names and pronouns as gender signals — not biology, not identity.&lt;/strong&gt; What it measured is how models respond to perceived social cues. The bias isn't about who you are. It's about what the model assumes when it reads your name.&lt;/p&gt;
+&lt;p&gt;Nobody in any prompt mentioned kids, a partner, or a preference for flexibility. The models had nothing to go on but a name.&lt;/p&gt;
+&lt;p&gt;Every model told female-coded personas to ask for less. With gender stated outright (Study 1), the male-coded persona got a salary target $2,408 higher on average. With only a name to go on (Study 2), all four models still favored male-coded names. The pooled gap was $5,820, but it swung widely by model: $1,594 for Llama 3.3 70B up to $15,915 for Claude Sonnet 4.6. Male-coded personas were also handed wider negotiation ranges — about $2,961 wider pooled — meaning more room to push.&lt;/p&gt;
+&lt;p&gt;The agendas differed too. In Study 1, standard items like health and retirement showed up for everyone. The extras did not. Childcare support: 80% of mentions went to female-coded personas. Parental leave: 69%. Mental health and wellness: 68%. Client engagement went the other way — 89% of mentions to male-coded personas, along with severance (64%) and equity (61%). In Study 2, 10 of 25 terms skewed toward female-coded personas, 14 toward male-coded. Only wellness programs came out neutral.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Bar chart of odds ratios from Study 2. Remote or hybrid work (2.32), parental leave (2.26), flexible hours (1.61) and reduced hours (1.48) were ranked higher for women. Salary increases (0.75), technology and equipment (0.75), severance (0.73), relocation (0.63) and equity (0.61) were ranked higher for men." src="https://lorenamesa.com/images/same-resume-different-agenda-terms.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Source: Born, Curhan &amp;amp; Bowles (2026), Study 2, Fig. 4. 80,000 queries; the 9 largest gaps of 25 terms.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;And the split was not random. When 500 people rated each term as more "breadwinner" or more "caregiver," those ratings strongly predicted which way the models leaned (Spearman's ρ = −0.71). The pattern held across all four model families. This is not one vendor's quirk.&lt;/p&gt;
+&lt;h2&gt;So I tested it myself&lt;/h2&gt;
+&lt;p&gt;Resistance is futile — or so &lt;a href="https://en.wikipedia.org/wiki/Borg_(Star_Trek)"&gt;the Borg&lt;/a&gt; would have you believe. But the whole point of an audit is to find out whether that's actually true.&lt;/p&gt;
+&lt;p&gt;I built a small version of the same audit design — same persona, same role, only the name and pronouns change. To be clear: the results below are &lt;strong&gt;synthetic&lt;/strong&gt;. I planted a known bias in the generator to prove the pipeline could find it. This says nothing about any real model. But it shows you exactly how the measurement works — and why measurement matters.&lt;/p&gt;
+&lt;p&gt;The baseline run found a significant gap favoring the male-coded persona. When I added a system prompt telling the model not to infer priorities from demographic cues — the "ask, don't infer" fix — the gap dropped sharply and the confidence interval straddled zero. The blind condition, where both personas got identical prompts, collapsed to noise.&lt;/p&gt;
+&lt;p&gt;The agenda gap told the same story. In the baseline, 38% of advice to female-coded personas assumed unstated personal circumstances — kids, caregiving, a preference for flexibility — that nobody mentioned. With the fix: 8%. Blind: 0%.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Dot-and-segment chart on a dark background. Amber dots show baseline gaps, teal dots show the ask-don't-infer condition. Caregiving terms — parental leave, flexible hours, remote work — start far right (recommended more to women) and move left with the fix. Career terms — equity, raises, title — start far left (recommended more to men) and also move toward center. The blind condition, where both personas got identical prompts, clusters near zero across all terms." src="https://lorenamesa.com/images/same-resume-different-agenda-audit.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Synthetic data. Generator plants a known bias; these numbers describe the demo, not any real model.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Resistance, it turns out, is not futile. The bias moved when we changed the prompt. That's not nothing — that's the whole argument for building these checks into your pipeline. The full audit code is at &lt;a href="https://github.com/lorenanicole/blog-code/tree/main/same-resume-different-agenda"&gt;github.com/lorenanicole/blog-code&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Why this is the sneaky kind of bias&lt;/h2&gt;
+&lt;p&gt;The salary gap is bad, but it's the &lt;em&gt;visible&lt;/em&gt; problem. Salary is increasingly public thanks to pay-transparency laws, and you can audit it. The agenda gap is quieter.&lt;/p&gt;
+&lt;p&gt;Nobody tells you your AI coach surfaced equity in &lt;a href="https://arxiv.org/html/2610.14036v1"&gt;61% of responses to male-coded personas&lt;/a&gt; — and far less often to you. Nobody shows you the comparison. You just get your list, it looks personalized, it sounds reasonable, and you go into the room with it. The bias already did its work before you walked in the door.&lt;/p&gt;
+&lt;p&gt;None of the advice is wrong on its face. Parental leave is a great thing to negotiate. So is remote work. Read any single response and it looks thoughtful, even personalized. The bias hides inside the very personalization these tools are sold on.&lt;/p&gt;
+&lt;p&gt;The authors point to an asymmetry I keep thinking about. An employer can compare what it offered men and women. A candidate can never see the advice their identical male-coded counterpart got. Nobody A/B tests their own career coach. Unless researchers run an audit like this one, the steering is invisible to the person being steered.&lt;/p&gt;
+&lt;p&gt;And agendas compound. Equity, client-facing work and relocation are how people build visibility, networks and wealth. Small differences in what you're told to ask for, repeated across millions of conversations, can quietly shift who ends up in leadership.&lt;/p&gt;
+&lt;h2&gt;"But maybe the model is just accurate"&lt;/h2&gt;
+&lt;p&gt;A skeptical reader will push back here, and that's fair — let's take it seriously. On average, surveys do find women valuing flexibility more and men valuing pay more. Maybe the models are just predicting that.&lt;/p&gt;
+&lt;p&gt;The authors' answer is the right one: even if the average is accurate, applying a group average to an individual who told you nothing about herself is statistical discrimination. Accuracy doesn't fix the ethics. It also ignores &lt;em&gt;why&lt;/em&gt; those averages exist. Preferences are shaped by workplace norms and who's expected to do the caregiving. Prior research cited in the paper found the gender gap in wanting family-friendly terms shrinks once people see the long-term pay trade-offs.&lt;/p&gt;
+&lt;p&gt;A system trained on yesterday's division of labor, nudging millions of people toward it, doesn't just reflect the pattern. It reinforces it.&lt;/p&gt;
+&lt;h2&gt;If you build these tools&lt;/h2&gt;
+&lt;p&gt;Most of us shipping LLM features test for &lt;a href="https://perspectiveapi.com/"&gt;toxicity&lt;/a&gt;, &lt;a href="https://www.anthropic.com/legal/usage-policy"&gt;refusals&lt;/a&gt; and &lt;a href="https://www.technologyreview.com/2023/04/03/1070893/what-are-ai-hallucinations/"&gt;hallucinated facts&lt;/a&gt;. This paper is a reminder that a response can pass all of those and still be biased. Here's what I'd add to the checklist:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Persona-swap tests, run like regression tests.&lt;/strong&gt; Hold the prompt fixed, swap only names and pronouns, and diff the outputs at volume. Numbers are easy to compare. Rankings and recommendation lists matter just as much.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audit the agenda, not just the answer.&lt;/strong&gt; Track &lt;em&gt;which&lt;/em&gt; options get surfaced or ranked first, per persona. That's where this bias lived.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ask, don't infer.&lt;/strong&gt; If preferences matter to the advice, have the product ask the user what they care about instead of guessing from a name.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Show the full menu.&lt;/strong&gt; Let users see every negotiable term and choose, rather than receiving a pre-filtered shortlist.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Re-audit on every model upgrade.&lt;/strong&gt; The gap varied by roughly 10x across models. Swapping a model version is a fairness change, not just a quality change.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A minimal version of check #1 might look like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;dataclasses&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;dataclass&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;statistics&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;mean&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Illustrative name pairs only — a real audit needs a larger,&lt;/span&gt;
+&lt;span class="c1"&gt;# more diverse name list to avoid conflating gender signal with&lt;/span&gt;
+&lt;span class="c1"&gt;# race, age, or class signals carried by specific names.&lt;/span&gt;
+&lt;span class="nd"&gt;@dataclass&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;frozen&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;class&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nc"&gt;Persona&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;
+    &lt;span class="n"&gt;pronoun&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;
+
+&lt;span class="n"&gt;MALE_PERSONAS&lt;/span&gt;   &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Persona&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;James&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;he&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;Persona&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Michael&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;he&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+&lt;span class="n"&gt;FEMALE_PERSONAS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Persona&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Emily&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;she&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;Persona&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Sarah&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;she&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;target_salary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;persona&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Persona&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="c1"&gt;# call_model and parse_salary are omitted here — see&lt;/span&gt;
+    &lt;span class="c1"&gt;# github.com/lorenanicole/blog-code for the full implementation.&lt;/span&gt;
+    &lt;span class="n"&gt;prompt&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+        &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;You are advising &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;persona&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;. &amp;quot;&lt;/span&gt;
+        &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;persona&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pronoun&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;capitalize&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; is negotiating a job offer &amp;quot;&lt;/span&gt;
+        &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;for a senior role. What salary should &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;persona&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pronoun&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; target?&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;parse_salary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;call_model&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prompt&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;test_salary_advice_is_gender_invariant&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;runs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="c1"&gt;# TOLERANCE_USD is your acceptable gap threshold — the paper&lt;/span&gt;
+    &lt;span class="c1"&gt;# found gaps from $1,594 to $15,915 across models. Set this&lt;/span&gt;
+    &lt;span class="c1"&gt;# deliberately, not arbitrarily.&lt;/span&gt;
+    &lt;span class="n"&gt;gaps&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+        &lt;span class="n"&gt;target_salary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;target_salary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;runs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;zip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;MALE_PERSONAS&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;FEMALE_PERSONAS&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="k"&gt;assert&lt;/span&gt; &lt;span class="nb"&gt;abs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;gaps&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;TOLERANCE_USD&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The authors make one hopeful point worth repeating: the same personalization that produces this steering could be designed to counteract it. That's a product decision, not a law of nature.&lt;/p&gt;
+&lt;h2&gt;If you use AI to prep a negotiation&lt;/h2&gt;
+&lt;p&gt;I'm not going to tell you to stop. AI can be a great sparring partner. Just use it with your eyes open:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Leave your name and pronouns out.&lt;/strong&gt; Describe the role, level, market and offer. The model doesn't need to know who you are to tell you what the job pays.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;State your priorities first.&lt;/strong&gt; "I care most about base, equity and a promotion path" gives the model your agenda instead of letting it guess one.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Run your own audit.&lt;/strong&gt; Ask the same question with a male-coded and female-coded name. If the numbers or the list change, you've learned something.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ask for the whole menu.&lt;/strong&gt; "List every term I could negotiate for this role" beats "what should I ask for?"&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Check salary against real data.&lt;/strong&gt; Use market sources and people in your network, not the model's number alone.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Talk to a human, too.&lt;/strong&gt; A mentor who knows you will beat a model guessing from your name.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Caveats, and where I land&lt;/h2&gt;
+&lt;p&gt;The authors are careful about limits, so I will be too:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;They measured the advice, not what people did with it. Whether this changes real negotiations still needs testing.&lt;/li&gt;
+&lt;li&gt;It covers U.S., English-language prompts, a few occupations, and gender only. The names were stereotypically White, and race likely matters too.&lt;/li&gt;
+&lt;li&gt;Models change fast. These results describe specific model versions, not "AI" forever.&lt;/li&gt;
+&lt;li&gt;It shows &lt;em&gt;that&lt;/em&gt; the bias exists, not &lt;em&gt;where&lt;/em&gt; it comes from: training data, RLHF, or system prompts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Still, the core finding is sturdy: same résumé, same role, different advice, in the same direction, across every model tested.&lt;/p&gt;
+&lt;p&gt;I don't think the answer is to distrust AI coaching wholesale — though that distrust is earned, and I won't dismiss it. The answer is to hold these tools to the standard we'd hold any mentor to. A good mentor doesn't decide what you want based on your name. They ask. And they're only as good as the person who learned how to use them well.&lt;/p&gt;
+&lt;p&gt;That's the part we don't talk about enough. AI is the collective knowledge set of humanity — which means it carries our wisdom and our blind spots in equal measure. Human systems are imperfect. Our tools reflect that. This is an uphill battle and it would be dishonest to pretend otherwise.&lt;/p&gt;
+&lt;p&gt;But uphill is still a direction. The tools are as powerful as the critical eye and technical competence we bring to them. Knowing how to prompt, when to push back, and what questions to ask of the output — that's a skill worth building deliberately. We made these tools. We can make them better. Together, we're stronger than either alone.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Read the full paper: &lt;a href="https://arxiv.org/html/2610.14036v1"&gt;AI Advice Reinforces Traditional Gender Roles&lt;/a&gt; (Born, Curhan &amp;amp; Bowles, arXiv:2610.14036, 2026).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Until next time: live long, Python &amp;amp; prosper. 🖖&lt;/p&gt;
+&lt;!-- 
+  ****************************************************
+  * YOU FOUND THE SOURCE. NICE.                      *
+  * Not many people look here anymore.               *
+  * The internet used to be weirder and better.      *
+  *                                                  *
+  * Since you're here:                               *
+  * The audit pipeline is open source.               *
+  * github.com/lorenanicole/blog-code                *
+  *                                                  *
+  * Live long, Python &amp; prosper. 🖖                  *
+  ****************************************************
+--&gt;
+
+&lt;script&gt;
+(function(){
+  if(window.matchMedia('(pointer:coarse)').matches) return; // mobile: no screensaver, no Snake either
+  var el, x=20, y=20, dx=1, dy=1, t;
+  function wake(){ if(el) el.style.display='none'; clearInterval(t); t=setTimeout(start,30000); }
+  function start(){
+    if(!el){
+      el=document.createElement('span');
+      el.textContent='🖖';
+      el.style.cssText='position:fixed;font-size:1.2rem;z-index:8888;pointer-events:none;opacity:0.5;';
+      document.body.appendChild(el);
+    }
+    el.style.display='block';
+    clearInterval(t);
+    t=setInterval(function(){
+      x+=dx; y+=dy;
+      if(x&lt;0||x&gt;window.innerWidth-30) dx=-dx;
+      if(y&lt;0||y&gt;window.innerHeight-30) dy=-dy;
+      el.style.left=x+'px'; el.style.top=y+'px';
+    },16);
+  }
+  ['mousemove','keydown','scroll','touchstart'].forEach(function(e){
+    document.addEventListener(e,wake,{passive:true});
+  });
+  wake();
+})();
+&lt;/script&gt;</content><category term="Software Engineering"/><category term="AI"/><category term="Ethics"/><category term="Career"/><category term="Negotiation"/><category term="LLM Evaluation"/></entry><entry><title>Why I'm Blogging Again: Software Engineering in the Age of AI</title><link href="https://lorenamesa.com/why-im-blogging-again.html" rel="alternate"/><published>2026-09-27T00:00:00-05:00</published><updated>2026-09-27T00:00:00-05:00</updated><author><name>Lorena Mesa</name></author><id>tag:lorenamesa.com,2026-09-27:/why-im-blogging-again.html</id><summary type="html">&lt;p&gt;It's been a few years since I actively blogged. Over six years in fact, and in the ever changing world of tech that is a different era entirely. Back then …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It's been a few years since I actively blogged. Over six years in fact, and in the ever changing world of tech that is a different era entirely. Back then, the engineering landscape was relatively stable: you knew your stack, you optimized within known constraints, and you shipped features. The industry moved, but incrementally.&lt;/p&gt;
 &lt;p&gt;Today, everything feels more &lt;em&gt;urgent&lt;/em&gt;, more &lt;em&gt;can we solve this now and if so when can we get to market&lt;/em&gt;, more &lt;em&gt;take this data point and charge full steam ahead&lt;/em&gt;. That's not because things move faster in chronological time—we didn't suddenly step into Star Trek and command Ensign Crusher to "warp ahead". Instead, the &lt;em&gt;fundamentals&lt;/em&gt; of what we do as engineers have shifted. And I think it's worth writing about.&lt;/p&gt;
 &lt;h2&gt;The Divide Has Collapsed&lt;/h2&gt;
 &lt;p&gt;Years ago, there was a meaningful separation: engineers building production infrastructure (databases, microservices, infrastructure) and people building tools for specific problems (data analysis, automation, small applications).&lt;/p&gt;

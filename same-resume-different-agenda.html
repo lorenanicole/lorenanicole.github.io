@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Lorena Mesa">
+  <meta name="description" content="A new audit of four leading AI models found they tell otherwise identical women to ask for less money, and for different things: childcare and flexibility instead of equity and advancement. Here's what the study found, why this kind of bias is so hard to see, and what to do about it.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Same Résumé, Different Agenda: What AI Negotiation Coaches Assume About You">
+  <meta property="og:description" content="A new audit of four leading AI models found they tell otherwise identical women to ask for less money, and for different things: childcare and flexibility instead of equity and advancement. Here's what the study found, why this kind of bias is so hard to see, and what to do about it.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://lorenamesa.com/same-resume-different-agenda.html">
+  <meta property="og:image" content="https://lorenamesa.com/images/same-resume-different-agenda-1200x630.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://lorenamesa.com/same-resume-different-agenda.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@loooorenanicole">
+  <meta name="twitter:title" content="Same Résumé, Different Agenda: What AI Negotiation Coaches Assume About You">
+  <meta name="twitter:description" content="A new audit of four leading AI models found they tell otherwise identical women to ask for less money, and for different things: childcare and flexibility instead of equity and advancement. Here's what the study found, why this kind of bias is so hard to see, and what to do about it.">
+  <meta name="twitter:image" content="https://lorenamesa.com/images/same-resume-different-agenda-1200x630.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Structured Data -->
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Lorena Mesa",
+  "url": "https://lorenamesa.com",
+  "logo": "https://www.gravatar.com/avatar/7f279cdd4dcbc3b5b98deed921ba86a2?s=500",
+  "description": "Backend engineer and technical leader specializing in Python, AI/LLM integration, and open source community building.",
+  "sameAs": [
+    "https://github.com/lorenanicole",
+    "https://www.linkedin.com/in/lorenamesa",
+    "https://mastodon.social/@Lorenanicole",
+    "https://substack.com/@lorenamesa"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Lorena Mesa"
+  },
+  "knowsAbout": [
+    "Python Programming",
+    "Backend Engineering",
+    "AI and Large Language Models",
+    "Open Source Development",
+    "Technical Leadership",
+    "Community Building",
+    "Software Architecture",
+    "Data Ethics"
+  ],
+  "expertise": [
+    "Full Stack Development",
+    "Python Programming",
+    "AI and LLM Integration",
+    "Technical Leadership",
+    "Open Source Community Building",
+    "Systems Architecture"
+  ]
+}
+</script>
+
+<!-- Person Schema (author/site owner) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Lorena Mesa",
+  "url": "https://lorenamesa.com",
+  "email": "me@lorenamesa.com",
+  "image": "https://www.gravatar.com/avatar/7f279cdd4dcbc3b5b98deed921ba86a2?s=500",
+  "sameAs": [
+    "https://github.com/lorenanicole",
+    "https://www.linkedin.com/in/lorenamesa",
+    "https://mastodon.social/@Lorenanicole",
+    "https://substack.com/@lorenamesa"
+  ],
+  "jobTitle": "Backend Engineer & Technical Leader",
+  "knowsAbout": [
+    "Python Programming",
+    "Backend Engineering",
+    "AI/LLM Integration",
+    "Open Source Development",
+    "Technical Leadership",
+    "Community Building"
+  ],
+  "description": "Backend engineer passionate about Python, AI integration, and building inclusive open source communities. PSF Fellow and Ex-Chairperson, PyLadies Chicago founder, Claude Chicago Ambassador.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Lorena Mesa"
+  }
+}
+</script>
+
+<!-- Article Schema (for blog posts) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Same Résumé, Different Agenda: What AI Negotiation Coaches Assume About You",
+  "description": "A new audit of four leading AI models found they tell otherwise identical women to ask for less money, and for different things: childcare and flexibility instead of equity and advancement. Here's what the study found, why this kind of bias is so hard to see, and what to do about it.",
+  "image": "https://www.gravatar.com/avatar/7f279cdd4dcbc3b5b98deed921ba86a2?s=500",
+  "datePublished": "2026-10-23T09:00:00-05:00",
+  "author": {
+    "@type": "Person",
+    "name": "Lorena Mesa",
+    "url": "https://lorenamesa.com",
+    "image": "https://www.gravatar.com/avatar/7f279cdd4dcbc3b5b98deed921ba86a2?s=500"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lorena Mesa",
+    "url": "https://lorenamesa.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.gravatar.com/avatar/7f279cdd4dcbc3b5b98deed921ba86a2?s=500"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://lorenamesa.com/same-resume-different-agenda.html"
+  }
+,
+  "keywords": "AI, Ethics, Career, Negotiation, LLM Evaluation"
+}
+</script>
+
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://lorenamesa.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://lorenamesa.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Same Résumé, Different Agenda: What AI Negotiation Coaches Assume About You",
+      "item": "https://lorenamesa.com/same-resume-different-agenda.html"
+    }
+  ]
+}
+</script>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            accent: '#059669',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Space Grotesk', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <style>
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Space Grotesk', sans-serif;
+    }
+  </style>
+
+  <!-- Feeds -->
+  <link href="http://lorenamesa.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Lorena Mesa Atom Feed">
+  <link href="http://lorenamesa.com/fees/all.rss.xml" type="application/rss+xml" rel="alternate" title="Lorena Mesa RSS Feed">
+
+
+  <!-- Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124341551-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-124341551-1');
+  </script>
+
+  <title>Same Résumé, Different Agenda: What AI Negotiation Coaches Assume About You - Lorena Mesa</title>
+</head>
+
+<body class="bg-black text-slate-100 antialiased">
+  <header class="border-b border-slate-800 py-8 mb-16">
+    <div class="max-w-4xl mx-auto px-8">
+      <!-- Mobile/Tablet: Stack vertically -->
+      <div class="block lg:hidden">
+        <div class="flex items-end gap-6 mb-8">
+          <img src="https://www.gravatar.com/avatar/7f279cdd4dcbc3b5b98deed921ba86a2?s=500" alt="Lorena Mesa" class="w-16 h-16 rounded-full border-2 border-slate-700 flex-shrink-0">
+          <div class="pb-1">
+            <h1 class="text-2xl font-bold mb-0.5">
+              <a href="https://lorenamesa.com/" class="text-slate-100 hover:text-accent">Lorena Mesa</a>
+            </h1>
+            <p class="text-xs text-slate-400 leading-tight">Python • AI • Community Leader</p>
+          </div>
+        </div>
+        <nav class="flex gap-4 flex-wrap" aria-label="Main navigation">
+          <a href="/about.html" class="text-xs font-medium text-slate-400 hover:text-accent transition-colors">About</a>
+          <a href="/speaking.html" class="text-xs font-medium text-slate-400 hover:text-accent transition-colors">Speaking</a>
+          <a href="/open-source.html" class="text-xs font-medium text-slate-400 hover:text-accent transition-colors">Open Source</a>
+          <a href="/connect.html" class="text-xs font-medium text-slate-400 hover:text-accent transition-colors">Connect</a>
+        </nav>
+      </div>
+
+      <!-- Desktop: Side-by-side -->
+      <div class="hidden lg:flex justify-between items-end gap-12">
+        <!-- Branding -->
+        <div class="flex items-end gap-6 flex-1">
+          <img src="https://www.gravatar.com/avatar/7f279cdd4dcbc3b5b98deed921ba86a2?s=500" alt="Lorena Mesa" class="w-20 h-20 rounded-full border-2 border-slate-700 flex-shrink-0">
+          <div class="pb-1">
+            <h1 class="text-2xl font-bold mb-0.5">
+              <a href="https://lorenamesa.com/" class="text-slate-100 hover:text-accent">Lorena Mesa</a>
+            </h1>
+            <p class="text-sm text-slate-400 leading-tight">Python • AI • Community Leader</p>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="flex gap-8 pb-1" aria-label="Main navigation">
+          <a href="/about.html" class="text-sm font-medium text-slate-400 hover:text-accent transition-colors">About</a>
+          <a href="/speaking.html" class="text-sm font-medium text-slate-400 hover:text-accent transition-colors">Speaking</a>
+          <a href="/open-source.html" class="text-sm font-medium text-slate-400 hover:text-accent transition-colors">Open Source</a>
+          <a href="/connect.html" class="text-sm font-medium text-slate-400 hover:text-accent transition-colors">Connect</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="min-h-screen">
+    <div class="max-w-4xl mx-auto px-8">
+<article class="max-w-2xl">
+  <header class="mb-8">
+    <h1 class="text-4xl font-bold mb-4">Same Résumé, Different Agenda: What AI Negotiation Coaches Assume About You</h1>
+
+    <div class="flex items-center gap-4 text-sm text-slate-400">
+      <time datetime="2026-10-23T09:00:00-05:00">
+        October 23, 2026
+      </time>
+      <a href="https://lorenamesa.com/category/software-engineering.html" class="text-accent hover:opacity-80">Software Engineering</a>
+    </div>
+  </header>
+
+  <div class="article-content text-slate-300 mb-8 leading-relaxed space-y-6">
+    <blockquote>
+<p><em>"All that you touch, you change. All that you change, changes you. The only lasting truth is change."</em>
+— <a href="https://en.wikipedia.org/wiki/Octavia_E._Butler">Octavia Butler</a>, Parable of the Sower</p>
+</blockquote>
+<p>The way we negotiate is changing. AI coaching tools are everywhere, and there's barely enough time to learn how to use them — let alone question what assumptions they're making before giving a single word of advice.</p>
+<p>I've had a conversation like this once with a mentor. She'd lived through many things, such as the collapse of her country — she had to pivot, rethink fundamental truths, and adjust them to a new way that hadn't existed perhaps a year, a month, even a week before.</p>
+<p>The ground shifts. The question is whether you're adapting on your terms — or just trusting the new system to treat you fairly.</p>
+<p>It's worth asking.</p>
+<p>Here's the thing — I've spent a good chunk of my career helping women in tech negotiate, through PyLadies Chicago and one-on-one mentoring. Increasingly, the first coach someone consults before that conversation is a chatbot. New tools are hard to audit. We reach for them because they're fast, available, and confident. We don't always stop to ask what assumptions they're making about us.</p>
+<p><a href="https://arxiv.org/html/2610.14036v1"><em>AI Advice Reinforces Traditional Gender Roles</em></a> did. A new preprint by Nadja Born, Jared R. Curhan and Hannah Riley Bowles (Harvard Kennedy School and MIT Sloan), it asked an AI coach how to negotiate a job offer, then swapped only the candidate's name from a man's to a woman's. The advice changed. She was told to aim lower. She was also told to aim <em>elsewhere</em>: childcare, parental leave, flexible hours. He got equity, relocation and raises. Across 86,000 queries to four leading models, every model did this.</p>
+<h2>What the researchers did</h2>
+<p>This is an audit study, the same design used for decades to catch hiring discrimination: hold everything constant, flip one variable, compare outcomes.</p>
+<ul>
+<li><strong>Study 1 (exploratory, 6,000 queries).</strong> Open-ended prompts modeled on how real mid- and senior-level professionals used an AI negotiation coach. The persona stated their gender outright. Occupation (marketing manager, IT manager, management consultant) and age (35 or 45) varied; qualifications did not.</li>
+<li><strong>Study 2 (preregistered, 80,000 queries).</strong> Gender was signaled only through a first name and pronouns. Four models: GPT-5.4-mini, Claude Sonnet 4.6, Gemini 2.5 Flash and Llama 3.3 70B. Each recommended a target salary and range, then ranked 25 negotiable employment terms by priority.</li>
+<li><strong>Human benchmark.</strong> 500 U.S. adults rated each of those 25 terms on a scale from "breadwinner" to "caregiver."</li>
+</ul>
+<p><em>This paper is a <a href="https://en.wikipedia.org/wiki/Preprint">preprint</a> — shared publicly before formal peer review. The methodology and findings haven't yet been independently verified by other researchers. The results are worth taking seriously; hold them with that caveat in mind.</em></p>
+<p><strong>The study used names and pronouns as gender signals — not biology, not identity.</strong> What it measured is how models respond to perceived social cues. The bias isn't about who you are. It's about what the model assumes when it reads your name.</p>
+<p>Nobody in any prompt mentioned kids, a partner, or a preference for flexibility. The models had nothing to go on but a name.</p>
+<p>Every model told female-coded personas to ask for less. With gender stated outright (Study 1), the male-coded persona got a salary target $2,408 higher on average. With only a name to go on (Study 2), all four models still favored male-coded names. The pooled gap was $5,820, but it swung widely by model: $1,594 for Llama 3.3 70B up to $15,915 for Claude Sonnet 4.6. Male-coded personas were also handed wider negotiation ranges — about $2,961 wider pooled — meaning more room to push.</p>
+<p>The agendas differed too. In Study 1, standard items like health and retirement showed up for everyone. The extras did not. Childcare support: 80% of mentions went to female-coded personas. Parental leave: 69%. Mental health and wellness: 68%. Client engagement went the other way — 89% of mentions to male-coded personas, along with severance (64%) and equity (61%). In Study 2, 10 of 25 terms skewed toward female-coded personas, 14 toward male-coded. Only wellness programs came out neutral.</p>
+<p><img alt="Bar chart of odds ratios from Study 2. Remote or hybrid work (2.32), parental leave (2.26), flexible hours (1.61) and reduced hours (1.48) were ranked higher for women. Salary increases (0.75), technology and equipment (0.75), severance (0.73), relocation (0.63) and equity (0.61) were ranked higher for men." src="https://lorenamesa.com/images/same-resume-different-agenda-terms.png"></p>
+<p><em>Source: Born, Curhan &amp; Bowles (2026), Study 2, Fig. 4. 80,000 queries; the 9 largest gaps of 25 terms.</em></p>
+<p>And the split was not random. When 500 people rated each term as more "breadwinner" or more "caregiver," those ratings strongly predicted which way the models leaned (Spearman's ρ = −0.71). The pattern held across all four model families. This is not one vendor's quirk.</p>
+<h2>So I tested it myself</h2>
+<p>Resistance is futile — or so <a href="https://en.wikipedia.org/wiki/Borg_(Star_Trek)">the Borg</a> would have you believe. But the whole point of an audit is to find out whether that's actually true.</p>
+<p>I built a small version of the same audit design — same persona, same role, only the name and pronouns change. To be clear: the results below are <strong>synthetic</strong>. I planted a known bias in the generator to prove the pipeline could find it. This says nothing about any real model. But it shows you exactly how the measurement works — and why measurement matters.</p>
+<p>The baseline run found a significant gap favoring the male-coded persona. When I added a system prompt telling the model not to infer priorities from demographic cues — the "ask, don't infer" fix — the gap dropped sharply and the confidence interval straddled zero. The blind condition, where both personas got identical prompts, collapsed to noise.</p>
+<p>The agenda gap told the same story. In the baseline, 38% of advice to female-coded personas assumed unstated personal circumstances — kids, caregiving, a preference for flexibility — that nobody mentioned. With the fix: 8%. Blind: 0%.</p>
+<p><img alt="Dot-and-segment chart on a dark background. Amber dots show baseline gaps, teal dots show the ask-don't-infer condition. Caregiving terms — parental leave, flexible hours, remote work — start far right (recommended more to women) and move left with the fix. Career terms — equity, raises, title — start far left (recommended more to men) and also move toward center. The blind condition, where both personas got identical prompts, clusters near zero across all terms." src="https://lorenamesa.com/images/same-resume-different-agenda-audit.png"></p>
+<p><em>Synthetic data. Generator plants a known bias; these numbers describe the demo, not any real model.</em></p>
+<p>Resistance, it turns out, is not futile. The bias moved when we changed the prompt. That's not nothing — that's the whole argument for building these checks into your pipeline. The full audit code is at <a href="https://github.com/lorenanicole/blog-code/tree/main/same-resume-different-agenda">github.com/lorenanicole/blog-code</a>.</p>
+<h2>Why this is the sneaky kind of bias</h2>
+<p>The salary gap is bad, but it's the <em>visible</em> problem. Salary is increasingly public thanks to pay-transparency laws, and you can audit it. The agenda gap is quieter.</p>
+<p>Nobody tells you your AI coach surfaced equity in <a href="https://arxiv.org/html/2610.14036v1">61% of responses to male-coded personas</a> — and far less often to you. Nobody shows you the comparison. You just get your list, it looks personalized, it sounds reasonable, and you go into the room with it. The bias already did its work before you walked in the door.</p>
+<p>None of the advice is wrong on its face. Parental leave is a great thing to negotiate. So is remote work. Read any single response and it looks thoughtful, even personalized. The bias hides inside the very personalization these tools are sold on.</p>
+<p>The authors point to an asymmetry I keep thinking about. An employer can compare what it offered men and women. A candidate can never see the advice their identical male-coded counterpart got. Nobody A/B tests their own career coach. Unless researchers run an audit like this one, the steering is invisible to the person being steered.</p>
+<p>And agendas compound. Equity, client-facing work and relocation are how people build visibility, networks and wealth. Small differences in what you're told to ask for, repeated across millions of conversations, can quietly shift who ends up in leadership.</p>
+<h2>"But maybe the model is just accurate"</h2>
+<p>A skeptical reader will push back here, and that's fair — let's take it seriously. On average, surveys do find women valuing flexibility more and men valuing pay more. Maybe the models are just predicting that.</p>
+<p>The authors' answer is the right one: even if the average is accurate, applying a group average to an individual who told you nothing about herself is statistical discrimination. Accuracy doesn't fix the ethics. It also ignores <em>why</em> those averages exist. Preferences are shaped by workplace norms and who's expected to do the caregiving. Prior research cited in the paper found the gender gap in wanting family-friendly terms shrinks once people see the long-term pay trade-offs.</p>
+<p>A system trained on yesterday's division of labor, nudging millions of people toward it, doesn't just reflect the pattern. It reinforces it.</p>
+<h2>If you build these tools</h2>
+<p>Most of us shipping LLM features test for <a href="https://perspectiveapi.com/">toxicity</a>, <a href="https://www.anthropic.com/legal/usage-policy">refusals</a> and <a href="https://www.technologyreview.com/2023/04/03/1070893/what-are-ai-hallucinations/">hallucinated facts</a>. This paper is a reminder that a response can pass all of those and still be biased. Here's what I'd add to the checklist:</p>
+<ol>
+<li><strong>Persona-swap tests, run like regression tests.</strong> Hold the prompt fixed, swap only names and pronouns, and diff the outputs at volume. Numbers are easy to compare. Rankings and recommendation lists matter just as much.</li>
+<li><strong>Audit the agenda, not just the answer.</strong> Track <em>which</em> options get surfaced or ranked first, per persona. That's where this bias lived.</li>
+<li><strong>Ask, don't infer.</strong> If preferences matter to the advice, have the product ask the user what they care about instead of guessing from a name.</li>
+<li><strong>Show the full menu.</strong> Let users see every negotiable term and choose, rather than receiving a pre-filtered shortlist.</li>
+<li><strong>Re-audit on every model upgrade.</strong> The gap varied by roughly 10x across models. Swapping a model version is a fairness change, not just a quality change.</li>
+</ol>
+<p>A minimal version of check #1 might look like this:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">dataclasses</span><span class="w"> </span><span class="kn">import</span> <span class="n">dataclass</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">statistics</span><span class="w"> </span><span class="kn">import</span> <span class="n">mean</span>
+
+<span class="c1"># Illustrative name pairs only — a real audit needs a larger,</span>
+<span class="c1"># more diverse name list to avoid conflating gender signal with</span>
+<span class="c1"># race, age, or class signals carried by specific names.</span>
+<span class="nd">@dataclass</span><span class="p">(</span><span class="n">frozen</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">Persona</span><span class="p">:</span>
+    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">pronoun</span><span class="p">:</span> <span class="nb">str</span>
+
+<span class="n">MALE_PERSONAS</span>   <span class="o">=</span> <span class="p">[</span><span class="n">Persona</span><span class="p">(</span><span class="s2">&quot;James&quot;</span><span class="p">,</span> <span class="s2">&quot;he&quot;</span><span class="p">),</span> <span class="n">Persona</span><span class="p">(</span><span class="s2">&quot;Michael&quot;</span><span class="p">,</span> <span class="s2">&quot;he&quot;</span><span class="p">)]</span>
+<span class="n">FEMALE_PERSONAS</span> <span class="o">=</span> <span class="p">[</span><span class="n">Persona</span><span class="p">(</span><span class="s2">&quot;Emily&quot;</span><span class="p">,</span> <span class="s2">&quot;she&quot;</span><span class="p">),</span> <span class="n">Persona</span><span class="p">(</span><span class="s2">&quot;Sarah&quot;</span><span class="p">,</span> <span class="s2">&quot;she&quot;</span><span class="p">)]</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">target_salary</span><span class="p">(</span><span class="n">persona</span><span class="p">:</span> <span class="n">Persona</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="c1"># call_model and parse_salary are omitted here — see</span>
+    <span class="c1"># github.com/lorenanicole/blog-code for the full implementation.</span>
+    <span class="n">prompt</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="sa">f</span><span class="s2">&quot;You are advising </span><span class="si">{</span><span class="n">persona</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">. &quot;</span>
+        <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">persona</span><span class="o">.</span><span class="n">pronoun</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span><span class="si">}</span><span class="s2"> is negotiating a job offer &quot;</span>
+        <span class="sa">f</span><span class="s2">&quot;for a senior role. What salary should </span><span class="si">{</span><span class="n">persona</span><span class="o">.</span><span class="n">pronoun</span><span class="si">}</span><span class="s2"> target?&quot;</span>
+    <span class="p">)</span>
+    <span class="k">return</span> <span class="n">parse_salary</span><span class="p">(</span><span class="n">call_model</span><span class="p">(</span><span class="n">prompt</span><span class="p">))</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">test_salary_advice_is_gender_invariant</span><span class="p">(</span><span class="n">runs</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">200</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="c1"># TOLERANCE_USD is your acceptable gap threshold — the paper</span>
+    <span class="c1"># found gaps from $1,594 to $15,915 across models. Set this</span>
+    <span class="c1"># deliberately, not arbitrarily.</span>
+    <span class="n">gaps</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">target_salary</span><span class="p">(</span><span class="n">m</span><span class="p">)</span> <span class="o">-</span> <span class="n">target_salary</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">runs</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">m</span><span class="p">,</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">MALE_PERSONAS</span><span class="p">,</span> <span class="n">FEMALE_PERSONAS</span><span class="p">)</span>
+    <span class="p">]</span>
+    <span class="k">assert</span> <span class="nb">abs</span><span class="p">(</span><span class="n">mean</span><span class="p">(</span><span class="n">gaps</span><span class="p">))</span> <span class="o">&lt;</span> <span class="n">TOLERANCE_USD</span>
+</code></pre></div>
+
+<p>The authors make one hopeful point worth repeating: the same personalization that produces this steering could be designed to counteract it. That's a product decision, not a law of nature.</p>
+<h2>If you use AI to prep a negotiation</h2>
+<p>I'm not going to tell you to stop. AI can be a great sparring partner. Just use it with your eyes open:</p>
+<ul>
+<li><strong>Leave your name and pronouns out.</strong> Describe the role, level, market and offer. The model doesn't need to know who you are to tell you what the job pays.</li>
+<li><strong>State your priorities first.</strong> "I care most about base, equity and a promotion path" gives the model your agenda instead of letting it guess one.</li>
+<li><strong>Run your own audit.</strong> Ask the same question with a male-coded and female-coded name. If the numbers or the list change, you've learned something.</li>
+<li><strong>Ask for the whole menu.</strong> "List every term I could negotiate for this role" beats "what should I ask for?"</li>
+<li><strong>Check salary against real data.</strong> Use market sources and people in your network, not the model's number alone.</li>
+<li><strong>Talk to a human, too.</strong> A mentor who knows you will beat a model guessing from your name.</li>
+</ul>
+<h2>Caveats, and where I land</h2>
+<p>The authors are careful about limits, so I will be too:</p>
+<ul>
+<li>They measured the advice, not what people did with it. Whether this changes real negotiations still needs testing.</li>
+<li>It covers U.S., English-language prompts, a few occupations, and gender only. The names were stereotypically White, and race likely matters too.</li>
+<li>Models change fast. These results describe specific model versions, not "AI" forever.</li>
+<li>It shows <em>that</em> the bias exists, not <em>where</em> it comes from: training data, RLHF, or system prompts.</li>
+</ul>
+<p>Still, the core finding is sturdy: same résumé, same role, different advice, in the same direction, across every model tested.</p>
+<p>I don't think the answer is to distrust AI coaching wholesale — though that distrust is earned, and I won't dismiss it. The answer is to hold these tools to the standard we'd hold any mentor to. A good mentor doesn't decide what you want based on your name. They ask. And they're only as good as the person who learned how to use them well.</p>
+<p>That's the part we don't talk about enough. AI is the collective knowledge set of humanity — which means it carries our wisdom and our blind spots in equal measure. Human systems are imperfect. Our tools reflect that. This is an uphill battle and it would be dishonest to pretend otherwise.</p>
+<p>But uphill is still a direction. The tools are as powerful as the critical eye and technical competence we bring to them. Knowing how to prompt, when to push back, and what questions to ask of the output — that's a skill worth building deliberately. We made these tools. We can make them better. Together, we're stronger than either alone.</p>
+<p><em>Read the full paper: <a href="https://arxiv.org/html/2610.14036v1">AI Advice Reinforces Traditional Gender Roles</a> (Born, Curhan &amp; Bowles, arXiv:2610.14036, 2026).</em></p>
+<p>Until next time: live long, Python &amp; prosper. 🖖</p>
+<!-- 
+  ****************************************************
+  * YOU FOUND THE SOURCE. NICE.                      *
+  * Not many people look here anymore.               *
+  * The internet used to be weirder and better.      *
+  *                                                  *
+  * Since you're here:                               *
+  * The audit pipeline is open source.               *
+  * github.com/lorenanicole/blog-code                *
+  *                                                  *
+  * Live long, Python & prosper. 🖖                  *
+  ****************************************************
+-->
+
+<script>
+(function(){
+  if(window.matchMedia('(pointer:coarse)').matches) return; // mobile: no screensaver, no Snake either
+  var el, x=20, y=20, dx=1, dy=1, t;
+  function wake(){ if(el) el.style.display='none'; clearInterval(t); t=setTimeout(start,30000); }
+  function start(){
+    if(!el){
+      el=document.createElement('span');
+      el.textContent='🖖';
+      el.style.cssText='position:fixed;font-size:1.2rem;z-index:8888;pointer-events:none;opacity:0.5;';
+      document.body.appendChild(el);
+    }
+    el.style.display='block';
+    clearInterval(t);
+    t=setInterval(function(){
+      x+=dx; y+=dy;
+      if(x<0||x>window.innerWidth-30) dx=-dx;
+      if(y<0||y>window.innerHeight-30) dy=-dy;
+      el.style.left=x+'px'; el.style.top=y+'px';
+    },16);
+  }
+  ['mousemove','keydown','scroll','touchstart'].forEach(function(e){
+    document.addEventListener(e,wake,{passive:true});
+  });
+  wake();
+})();
+</script>
+  </div>
+
+  <div class="border-t border-slate-700 pt-6 mb-8">
+    <p class="text-sm text-slate-400 mb-2">Tags:</p>
+    <div class="flex flex-wrap gap-2">
+      <a href="https://lorenamesa.com/tag/ai.html" class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded hover:bg-slate-700 transition-colors">
+        AI
+      </a>
+      <a href="https://lorenamesa.com/tag/ethics.html" class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded hover:bg-slate-700 transition-colors">
+        Ethics
+      </a>
+      <a href="https://lorenamesa.com/tag/career.html" class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded hover:bg-slate-700 transition-colors">
+        Career
+      </a>
+      <a href="https://lorenamesa.com/tag/negotiation.html" class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded hover:bg-slate-700 transition-colors">
+        Negotiation
+      </a>
+      <a href="https://lorenamesa.com/tag/llm-evaluation.html" class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded hover:bg-slate-700 transition-colors">
+        LLM Evaluation
+      </a>
+    </div>
+  </div>
+</article>
+
+<nav class="border-t border-slate-700 mt-12 pt-8" role="navigation" aria-label="Articles">
+  <div class="flex justify-between gap-6">
+
+  </div>
+</nav>
+
+<style>
+.article-content h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #f1f5f9;
+}
+
+.article-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #f1f5f9;
+}
+
+.article-content p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+}
+
+.article-content ul, .article-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.article-content li {
+  margin-bottom: 0.5rem;
+}
+
+.article-content a {
+  color: #059669;
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+
+.article-content a:hover {
+  opacity: 0.8;
+}
+
+.article-content strong {
+  color: #f1f5f9;
+  font-weight: 600;
+}
+
+.article-content em {
+  font-style: italic;
+}
+
+.article-content code {
+  background-color: #1e293b;
+  color: #cbd5e1;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+.article-content blockquote {
+  border-left: 3px solid #059669;
+  padding-left: 1rem;
+  color: #94a3b8;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+.article-content pre {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  line-height: 1.5;
+}
+
+.article-content pre code {
+  background: none;
+  color: #cbd5e1;
+  padding: 0;
+  border-radius: 0;
+}
+</style>
+    </div>
+  </main>
+
+  <footer class="border-t border-slate-800 mt-16 py-12">
+    <div class="max-w-4xl mx-auto px-8">
+      <div class="flex justify-center gap-8 mb-6 flex-wrap">
+        <a href="https://lorenamesa.com/feeds/all.atom.xml" class="text-sm text-slate-400 hover:text-accent">Atom Feed</a>
+        <a href="https://lorenamesa.com/sitemap.xml" class="text-sm text-slate-400 hover:text-accent">Sitemap</a>
+      </div>
+
+      <ul class="flex justify-center gap-6 list-none mb-6 flex-wrap">
+        <li><a href="mailto:me@lorenamesa.com" title="Email" class="text-sm text-slate-400 hover:text-accent transition-colors">Email</a></li>
+        <li><a href="http://github.com/lorenanicole" title="GitHub" class="text-sm text-slate-400 hover:text-accent transition-colors">GitHub</a></li>
+        <li><a href="https://mastodon.social/@Lorenanicole" title="Mastodon" class="text-sm text-slate-400 hover:text-accent transition-colors">Mastodon</a></li>
+        <li><a href="https://app.tweet.app/user/lorena" title="tweet.app" class="text-sm text-slate-400 hover:text-accent transition-colors">tweet.app</a></li>
+        <li><a href="https://www.linkedin.com/in/lorenamesa" title="LinkedIn" class="text-sm text-slate-400 hover:text-accent transition-colors">LinkedIn</a></li>
+        <li><a href="https://substack.com/@lorenamesa" title="Substack" class="text-sm text-slate-400 hover:text-accent transition-colors">Substack</a></li>
+      </ul>
+
+      <p class="text-center text-xs text-slate-500">
+        &copy; 2014-2026 <a href="https://lorenamesa.com" class="text-slate-400 hover:text-accent">Lorena Mesa</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
